@@ -15,3 +15,17 @@ p{
 	color: white;
 	text-align: center;
 }
+
+.parallax {
+  /* The image used */
+  background-image: url("https://i.imgur.com/PWRjepO.png");
+
+  /* Set a specific height */
+  min-height: 400px;
+  width: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
