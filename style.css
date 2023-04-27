@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Sigmar&display=swap');
 body{
 	background-color:black;
 }
 
 h1{
 	font-family: 'Sigmar', cursive;
+	color: white;
+	text-align: center;
+}
+
+p{
+	font-family: 'Montserrat', sans-serif;
 	color: white;
 	text-align: center;
 }
