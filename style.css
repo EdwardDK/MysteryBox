@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Sigmar&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
 body{
 	background-color:black;
+	overflow: hidden;
 }
 
 h1{
@@ -21,7 +30,7 @@ p{
   background-image: url("https://i.imgur.com/PWRjepO.png");
 
   /* Set a specific height */
-  min-height: 400px;
+  min-height: 500px;
   width: 100%;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -29,3 +38,4 @@ p{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
